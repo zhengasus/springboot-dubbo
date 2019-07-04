@@ -17,8 +17,14 @@
 - com.101tec.zkclient：0.11（Oct, 2018）
 - org.apache.zookeeper：3.4.13（Jul, 2018）
 - com.alibaba.dubbo：2.6.0（Jan, 2018） 
+- Dubbo-admin： dubbo-admin-2.5.10.war
 ### IP和Port问题
 - zookeeper.connect=localhost:2181
   ，在host文件里面做了映射才可以使用127.0.0.1，
 - 注意端口冲突的问题
   
+# 使用dubbo-admin
+- 下载dubbo-admin.war包
+- 放到tomcat/webapps目录下，启动tomcat
+- 访问：http://localhost:8080/dubbo-admin/ 
+  (默认密码在dubbo-admin\WEB-INF\dubbo.properties中)
