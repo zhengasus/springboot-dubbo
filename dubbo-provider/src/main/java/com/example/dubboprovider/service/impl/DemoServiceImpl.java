@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 public class DemoServiceImpl implements IDemoService {
     @Override
     public String getDemoString() {
-        return "就LG啊结果垃圾狗我骄傲叫我哥";
+        System.out.println("---provider被调用了");
+        return "provider被调用了";
     }
 }

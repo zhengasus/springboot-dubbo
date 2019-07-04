@@ -18,7 +18,7 @@ public class ConsumerDemoService {
     public void demoString(String name) {
         // 执行消费远程方法
         String hello = demoService.getDemoString();
-        System.out.println(hello);
+        System.out.println(name + hello);
     }
 
 }
